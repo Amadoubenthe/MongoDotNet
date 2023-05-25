@@ -11,7 +11,7 @@ namespace MongoDotNet.Controllers
     {
         private readonly MongoDBServices _mongoDBServices;
 
-        private UserController(MongoDBServices mongoDBServices)
+        public UserController(MongoDBServices mongoDBServices)
         {
             _mongoDBServices = mongoDBServices;
         }
